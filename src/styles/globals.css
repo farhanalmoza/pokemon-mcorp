@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #181818;
+  background: #eee;
+
+  .sort-active {
+    @apply bg-blue-500 text-white;
+  }
+
+  .sort-inactive {
+    @apply bg-[#fff] text-blue-500 border border-blue-500;
+  }
+}
